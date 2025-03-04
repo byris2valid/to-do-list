@@ -125,7 +125,7 @@
 
     <div class="form-container">
         <form class="form-1" method="post">
-            <h1>Welcome <?php echo htmlspecialchars($userInput['username']); ?></h1>
+        <h1>Welcome <?php echo htmlspecialchars($userInput['username']); ?></h1>
             <h3>Enter in your task for today: </h3>
             <input type="text" id="taskInput" name="task" placeholder="Enter your task">
             <input type="submit" value="Submit" onclick="addNewTask(); return false;">
